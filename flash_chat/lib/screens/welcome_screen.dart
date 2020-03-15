@@ -14,7 +14,6 @@ class _WelcomeScreenState extends State<WelcomeScreen>
 
   @override
   void initState() {
-    // TODO: implement initState
     super.initState();
     controller = AnimationController(
       duration: Duration(seconds: 1),
@@ -31,7 +30,6 @@ class _WelcomeScreenState extends State<WelcomeScreen>
 
   @override
   void dispose() {
-    // TODO: implement dispose
     controller.dispose();
     super.dispose();
   }
@@ -76,7 +74,7 @@ class _WelcomeScreenState extends State<WelcomeScreen>
             ),
             RoundedButton(
               color: Colors.blueAccent,
-              text: 'Register In',
+              text: 'Register',
               onPress: () {
                 Navigator.pushNamed(context, 'registration');
               },

@@ -10,18 +10,11 @@ class MyApp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-        theme: ThemeData.dark().copyWith(
-          textTheme: TextTheme(
-            body1: TextStyle(color: Colors.black45),
-          ),
-        ),
-        initialRoute: 'welcome',
-        routes: {
-          'welcome': (context) => WelcomeScreen(),
-          'login': (context) => LoginScreen(),
-          'registration': (context) => RegistrationScreen(),
-          'chat': (context) => ChatScreen(),
-        });
+    return MaterialApp(initialRoute: 'welcome', routes: {
+      'welcome': (context) => WelcomeScreen(),
+      'login': (context) => LoginScreen(),
+      'registration': (context) => RegistrationScreen(),
+      'chat': (context) => ChatScreen(),
+    });
   }
 }

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1087846590120",
+    "firebase_url": "https://flashchat-443e6.firebaseio.com",
+    "project_id": "flashchat-443e6",
+    "storage_bucket": "flashchat-443e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1087846590120:android:dc35687221e7e21a63849d",
+        "android_client_info": {
+          "package_name": "com.backpackmedia.flash_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1087846590120-j2h4op1c29t6j5la7d4bpag17i1697fg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmd_xyfJqvChCmbd4T0XmNZCFog7sA0EU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1087846590120-j2h4op1c29t6j5la7d4bpag17i1697fg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
